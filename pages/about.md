@@ -89,12 +89,12 @@ E-mail: <aronzhangfy@163.com>&emsp; 🏫[学校主页](https://faculty.swjtu.edu
   Supervisor: [Prof. Ting-Zhu Huang (黄廷祝教授)](http://www.math.uestc.edu.cn/info/1081/2041.htm)
 - *2013.09-2017.07*: Anhui University of Finance and Economics (AUFE); Bachelor student in Information and Computing Science-->
 
-# 💾 Fundings
+# Fundings
 
 - 国家自然科学基金青年项目, 主持,  2026.01-2028.12
 - 中国博士后科学基金面上项目，主持
 
-# 🏆 Awards and Honors
+# Awards and Honors
 
 - Outstanding Student of UESTC (<span style="color:red">成电杰出学生（研究生）</span>)，2024
 - Outstanding Graduate Student of Sichuan Province (四川省优秀毕业生)，2025
