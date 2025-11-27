@@ -109,25 +109,27 @@ h1:before, .anchor:before {
 }
 
 
-/* === 头像尺寸和形状 === */
-
-/* 头像容器宽一点 */
+/* === 放大头像 === */
 .author__avatar {
-  max-width: 340px !important;   /* 可以改 360 / 380 看效果 */
-  margin: 0 auto 1.5rem auto;    /* 居中 + 底部留一点空 */
+  max-width: 380px !important;      /* 这里可以改 400 / 420 看效果 */
+  margin: 0 auto 1.5rem auto !important;
 }
 
-/* 头像图片本身 */
 .author__avatar img {
-  width: 100% !important;        /* 填满容器宽度 */
-  max-width: 340px !important;   /* 和上面保持一致 */
+  width: 100% !important;           /* 填满容器 */
+  max-width: 380px !important;      /* 和上面保持一致 */
   height: auto !important;
-  border-radius: 0 !important;   /* 不要圆形 */
+  border-radius: 0 !important;      /* 不要圆角 */
   object-fit: contain !important;
 }
 
-/* 左侧 sidebar 宽一点，给头像腾位置 */
+/* === 拉宽 sidebar，本身给头像更大的区域 === */
 .sidebar {
-  flex: 0 0 360px !important;    /* 原来大概 260，这里你可以试 340 / 360 / 380 */
-  max-width: 360px !important;
+  flex: 0 0 380px !important;       /* 这里跟上面 380 对齐；想更大就一起改，比如 420 */
+  max-width: 380px !important;
+}
+
+.page__content {
+  padding-top: 0.5rem !important;
+  margin-top: 0 !important;
 }
