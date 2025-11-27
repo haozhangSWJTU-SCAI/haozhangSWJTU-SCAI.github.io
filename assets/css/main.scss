@@ -114,3 +114,27 @@ h1:before, .anchor:before {
   border-radius: 0 !important; /* 去掉圆角，变成原始形状 */
   object-fit: contain; /* 确保完整展示不裁切 */
 }
+
+/* === Super-size avatar === */
+
+/* 让整个作者信息栏全宽显示 */
+.author__profile {
+  max-width: 100% !important;
+}
+
+/* 控制头像容器大小 */
+.author__avatar {
+  width: 100% !important;     /* 占满整行 */
+  display: flex !important;
+  justify-content: center !important;
+  margin-bottom: 1.5rem;
+}
+
+/* 头像图片 */
+.author__avatar img {
+  width: 520px !important;   /* 想多大就改这里，比如 600px / 700px */
+  max-width: 100% !important;
+  height: auto !important;
+  border-radius: 0 !important; /* 取消圆形 */
+  object-fit: contain !important;
+}
