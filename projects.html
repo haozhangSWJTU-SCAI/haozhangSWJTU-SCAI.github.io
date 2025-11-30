@@ -58,12 +58,18 @@
   <div style="flex: 1; margin-right: 20px;">
     <ul>
       <li>
-        <p><a href="https://github.com/benzhengli/Trans-TNN-Toolbox"><b>TransTNN Toolbox</b>: Transformed Tensor Nuclear Norm Toolbox.</a> <br>
-          &#9675; About this toolbox: Transformed tensor nuclear norm has achieved promising results for high-dimensional image recovery.
-          TransTNN toolbox provides some classical transformed tensor nuclear norm methods in MATLAB 
-          with tensor completion as an example. <br>
-          &#9675; Main contributors: <b>Ben-Zheng Li</b>, Yu-Bang Zheng, Tai-Xiang Jiang, Xi-Le Zhao, Michael K. Ng <br>
-          &#9675; Time: May 1, 2023 - present <br>
+        <p><a href="https://github.com/haozhangSWJTU/Irregular-Tensor-Toolbox"><b>Irregular Tensor Toolbox</b></a> <br>
+          &#9675; Tensor decompositions have been successfully applied to multidimensional data recovery. 
+          However, classical tensor decompositions are not suitable for emerging spatio-irregular multidimensional data (i.e., spatio-irregular tensor), whose spatial domain is non-rectangular, 
+          e.g., spatial transcriptomics data from bioinformatics and semantic units from computer vision. By using preprocessing (e.g., zero-padding or element-wise 0-1 weighting), 
+          the spatio-irregular tensor can be converted to a spatio-regular tensor and then classical tensor decompositions can be applied, but this strategy inevitably introduces bias information,
+          leading to artifacts. How to design a tensor-based method suitable for emerging spatio-irregular tensors is an imperative challenge. 
+          To address this challenge, we propose a learnable transform-assisted tensor singular value decomposition (LTA-TSVD) for spatio-irregular tensor recovery, which allows us to leverage the intrinsic structure behind the spatio-irregular tensor. 
+          Specifically, we design a learnable transform to project the original spatio-irregular tensor into its latent spatio-regular tensor, and then the latent low-rank structure is captured by classical TSVD on the resulting regular tensor. 
+          Empowered by LTA-TSVD, we develop spatio-irregular low-rank tensor completion (SIR-LRTC) and spatio-irregular tensor robust principal component analysis (SIR-TRPCA) models for the spatio-irregular tensor imputation and denoising respectively, and we design corresponding solving algorithms with theoretical convergence. 
+          Extensive experiments including the spatial transcriptomics data imputation and hyperspectral image denoising show SIR-LRTC and SIR-TRPCA are superior performance to competing approaches and benefit downstream applications. <br>
+          &#9675; Main contributors: <b>Hao Zhang</b>,  Ting-Zhu Huang, XiLe Zhao, Shuqin Zhang, Jin-Yu Xie, Tai-Xiang Jiang, Michael K. Ng
+        <br>
         </p>
       </li>
     </ul>
@@ -71,8 +77,8 @@
 
   <!-- 右侧图片部分 -->
   <div style="margin-top: 20px;">
-    <a href="https://github.com/benzhengli/Trans-TNN-Toolbox">
-      <img src="Images/irregulartools.png" width="300" height="150" alt="Transformed TNN Toolbox Image">
+    <a href="https://github.com/haozhangSWJTU/Irregular-Tensor-Toolbox">
+      <img src="Images/irregulartools.png" width="300" height="150" alt="Irregular Tensor Toolbox">
     </a>
   </div>
 </div>
