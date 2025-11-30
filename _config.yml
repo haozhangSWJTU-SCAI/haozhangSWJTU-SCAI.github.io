@@ -1,12 +1,12 @@
 # Site settings
 title: Hao Zhang (张浩) | SWJTU
 email: aaronzhangfy@163.com
-description: Hao Zhang, 西南交通大学， SWJTU
+description: Hao Zhang (张浩), 西南交通大学，SWJTU, tensor decomposition, irregular tensor data modeling.
 # > # this means to ignore newlines until "baseurl:"
 #   Write an awesome description for your new site here. You can edit this
 #   line in _config.yml. It will appear in your document head meta (for
 #   Google search results) and in your feed.xml site description.
-
+url: "https://haozhangswjtu.github.io"   # ★ 必填 ★
 # baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
